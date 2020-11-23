@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Castoro&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="landing">
+    <div class="desc">
+      <p>The Best Gym Equipment.</p>
+      <a href="#products" class="btn">Buy</a>
+    </div>
+  </div>
+
+  <div id="products">
+
+    <div class="box">
+      <div class="colors">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+      </div>
+
+      <img class="slika" src="/img/patika.jpg" alt="Patika">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="MQEEXH43MFDLJ">
+        <table>
+          <tr>
+            <td><select class="sneakers" name="os0">
+                <option value="Black">Black €20.00 EUR</option>
+                <option value="Purple">Purple €30.00 EUR</option>
+                <option value="Blue">Blue €25.00 EUR</option>
+              </select> </td>
+          </tr>
+        </table>
+        <input type="hidden" name="currency_code" value="EUR">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit"
+          alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </div>
+
+    <div class="box">
+      <img src="/img/teg.jpg" alt="Teg">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="2XEF3BNREKDLG">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit"
+          alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </div>
+
+    <div class="box">
+      <img src="/img/rukavica.jpg" alt="Rukavice">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="4CWSP6G4MGXP8">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit"
+          alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
